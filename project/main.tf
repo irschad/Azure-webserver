@@ -178,7 +178,7 @@ resource "azurerm_linux_virtual_machine" "devopsproject" {
 
     admin_ssh_key {
         username       = "azureuser"
-        public_key     = tls_private_key.example_ssh.public_key_openssh
+        public_key     = tls_private_key.devops_ssh.public_key_openssh
     }
 
     tags = {
