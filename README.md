@@ -14,7 +14,7 @@ Below are the steps followed for Packer:
 
   
 ### Terraform  
-Below are the steps followed for Terraform:  
+Terraform is used for defining and managing infrastructure as code. Below are the steps followed for Terraform:  
 * Create main.tf for instructions for creating all resources and vars.tf for variables (including reference to source image as packer image created previously).  
   (Ensure customizable variables such as number of VMs, location, packer image source, size of VMs, etc. are configured in vars.tf file). 
 * Run **terraform init**  
