@@ -1,4 +1,4 @@
-# Deploying a Web Server in Azure using Packer and Terraform
+# Deploy a Web Server in Azure using Packer and Terraform
   
 ## An overview of the project  
 The objective of this project is to deploy a web server in Azure using Terraform template for creating infrastructure as code.   
