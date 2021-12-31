@@ -8,12 +8,16 @@ A short description of how to customize it for use (i.e., how to change the vars
   
 ### Packer  
 Packer is used to create the server image in Azure which is later used by Terraform for deploying the web server.
+Below are the steps followed for Packer:  
+* Install packer (https://learn.hashicorp.com/tutorials/packer/get-started-install-cli)  
+* 
+
   
 ### Terraform  
 Below are the steps for running Terraform:  
-Run terraform init  
-Run terraform plan -out solution.plan  
-Run terraform apply  
+* Run terraform init  
+* Run terraform plan -out solution.plan  
+* Run terraform apply  
 
 
 
